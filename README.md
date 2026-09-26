@@ -11,6 +11,17 @@ O objetivo deste espaço é registrar minha evolução na linguagem Java, aplica
 - **Linguagem:** Java (JDK 17+)
 - **IDE:** IntelliJ IDEA
 - **Controle de Versão:** Git & GitHub
+- **Documentação:** Markdown _(estudo complementar/iniciativa própria)_
+- **Qualidade de Código:** SonarQube for IDE _(estudo complementar/iniciativa própria para análise estática complementar da qualidade do código)_
+
+<br>
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000.png?style=for-the-badge&logo=intellij-idea&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
+![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD?style=for-the-badge&logo=sonarqube&logoColor=white)
 
 ---
 
@@ -34,9 +45,11 @@ Os exercícios estão consolidados e organizados em subpastas numeradas por tóp
 ## 🚀 Como Executar os Projetos
 
 1. Clone este repositório:
-   ```bash
-   git clone [https://github.com/ivanfsilva/devsuperior-java-estudos.git](https://github.com/ivanfsilva/devsuperior-java-estudos.git)
-   ```
 
-👤 Autor
+```bash
+git clone https://github.com/ivanfsilva/devsuperior-java-estudos.git
+```
+
+## 👤 Autor
+
 Desenvolvido por Ivan Ferreira.
