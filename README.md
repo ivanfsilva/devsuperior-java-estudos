@@ -1,4 +1,4 @@
-# 📚 Estudos de Java & Orientação a Objetos (DevSuperior)
+# 📚 Estudos de Java & Orientação a Objetos Expert
 
 Este repositório contém as soluções dos exercícios, desafios e projetos práticos desenvolvidos durante os treinamentos de Java da plataforma **DevSuperior**, ministrados pelo Prof. Dr. Nélio Alves.
 
