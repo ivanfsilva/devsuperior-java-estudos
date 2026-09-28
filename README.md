@@ -53,3 +53,5 @@ git clone https://github.com/ivanfsilva/devsuperior-java-estudos.git
 ## 👤 Autor
 
 Desenvolvido por Ivan Ferreira.
+
+Copyright © 2026 Ivan Ferreira. Todos os direitos reservados.
