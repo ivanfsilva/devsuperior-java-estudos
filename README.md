@@ -32,8 +32,8 @@ Os exercícios estão consolidados e organizados em subpastas numeradas por tóp
 |  Cap.  | Módulo / Tópico                   | Conteúdo Principal                                        |     Status      |
 | :----: | :-------------------------------- | :-------------------------------------------------------- | :-------------: |
 | **01** | `01-estrutura-sequencial`         | Entrada/saída de dados, operadores, funções matemáticas   |  ✅ Concluído   |
-| **02** | `02-estrutura-condicional`        | Estruturas `if-else`, `switch-case`, operadores lógicos   | ⏳ Em andamento |
-| **03** | `03-estruturas-repetitivas`       | Laços `while`, `for`, `do-while`                          |  📅 Planejado   |
+| **02** | `02-estrutura-condicional`        | Estruturas `if-else`, `switch-case`, operadores lógicos   |  ✅ Concluído   |
+| **03** | `03-estruturas-repetitivas`       | Laços `while`, `for`, `do-while`                          | ⏳ Em andamento |
 | **04** | `04-orientacao-a-objetos`         | Classes, atributos, métodos, membros estáticos            |  📅 Planejado   |
 | **05** | `05-construtores-encapsulamento`  | Sobrecarga, encapsulamento, `this`, getters/setters       |  📅 Planejado   |
 | **06** | `06-comportamento-memoria-arrays` | Tipos referência vs. valor, GC, vetores e listas (`List`) |  📅 Planejado   |
