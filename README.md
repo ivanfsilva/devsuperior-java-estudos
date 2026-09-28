@@ -12,7 +12,7 @@ O objetivo deste espaço é registrar minha evolução na linguagem Java, aplica
 - **IDE:** IntelliJ IDEA
 - **Controle de Versão:** Git & GitHub
 - **Documentação:** Markdown _(estudo complementar/iniciativa própria)_
-- **Qualidade de Código:** SonarQube for IDE _(estudo complementar/iniciativa própria para análise estática complementar da qualidade do código)_
+- **Qualidade de Código:** SonarQube for IDE _(estudo complementar/iniciativa própria para análise estática da qualidade do código)_
 
 <br>
 
