@@ -2,43 +2,69 @@ package application;
 
 import java.util.Locale;
 import java.util.Scanner;
+
 import entities.Product;
+
 public class Program {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        Product product = new Product();
+        Product product = null;
+        int option = 0;
 
-        System.out.println("Enter product data: ");
-        System.out.print("Name: ");
-        product.name = sc.nextLine();
+        do {
+            System.out.println("\n--- MENU DE ESTOQUE ---");
+            System.out.println("1 - Estoque inicial");
+            System.out.println("2 - Entrada no estoque");
+            System.out.println("3 - Saída no estoque");
+            System.out.println("9 - Saída do programa");
+            System.out.print("Escolha uma opção: ");
 
-        System.out.print("Price: ");
-        product.price = sc.nextDouble();
+            option = sc.nextInt();
+            sc.nextLine(); // Consome o \n retido após ler o inteiro
 
-        System.out.print("Quantity in stock: ");
-        product.quantity = sc.nextInt();
+            switch (option) {
+                case 1 -> {
+                    product = new Product();
+                    System.out.println("\nDigite os dados do produto:");
+                    System.out.print("Nome: ");
+                    product.name = sc.nextLine();
 
-        System.out.println();
-        System.out.println("Product data: " + product);
-        System.out.println();
+                    System.out.print("Preço: ");
+                    product.price = sc.nextDouble();
 
-        System.out.print("Enter the number of products to be added in stock: ");
-        int quantity = sc.nextInt();
-        product.addProducts(quantity);
+                    System.out.print("Quantidade inicial em estoque: ");
+                    product.quantity = sc.nextInt();
 
-        System.out.println();
-        System.out.println("Updated data: " + product);
-        System.out.println();
+                    System.out.println("\nDados do produto: " + product);
+                }
+                case 2 -> {
+                    if (product == null) {
+                        System.out.println("\n[Aviso] Cadastre primeiro o estoque inicial (Opção 1)!");
+                    } else {
+                        System.out.print("\nDigite a quantidade de produtos a ser adicionada ao estoque: ");
+                        int quantity = sc.nextInt();
+                        product.addProducts(quantity);
+                        System.out.println("\nDados atualizados: " + product);
+                    }
+                }
+                case 3 -> {
+                    if (product == null) {
+                        System.out.println("\n[Aviso] Cadastre primeiro o estoque inicial (Opção 1)!");
+                    } else {
+                        System.out.print("\nDigite a quantidade de produtos a ser removida do estoque: ");
+                        int quantity = sc.nextInt();
+                        product.removeProducts(quantity);
+                        System.out.println("\nDados atualizados: " + product);
+                    }
+                }
+                case 9 -> System.out.println("\nEncerrando o programa...");
+                default -> System.out.println("\nOpção inválida! Tente novamente.");
+            }
 
-        System.out.print("Enter the number of products to be removed from stock: ");
-        quantity = sc.nextInt();
-        product.removeProducts(quantity);
+        } while (option != 9);
 
-        System.out.println();
-        System.out.println("Updated data: " + product);
         sc.close();
     }
 }
-
